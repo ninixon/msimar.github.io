@@ -19,7 +19,7 @@
     <meta property="og:description" content="Useful Git alias Git comes with handy set of commands. But if you often do same things by typing lengthy commands, then their is alias in Mac/Linux to help you out. alias gcodev='git co develop'   alias gpulldev='git pull origin develop'   Setup color full git indicator for terminal">
     <meta property="og:url" content="http://localhost:2368/2017/05/05/git-alias/">
     <meta property="article:published_time" content="2017-05-05T18:09:26.000Z">
-    <meta property="article:modified_time" content="2017-05-05T18:10:03.000Z">
+    <meta property="article:modified_time" content="2017-05-05T18:14:46.000Z">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Git initials">
     <meta name="twitter:description" content="Useful Git alias Git comes with handy set of commands. But if you often do same things by typing lengthy commands, then their is alias in Mac/Linux to help you out. alias gcodev='git co develop'   alias gpulldev='git pull origin develop'   Setup color full git indicator for terminal">
@@ -45,7 +45,7 @@
     "headline": "Git initials",
     "url": "http://localhost:2368/2017/05/05/git-alias/",
     "datePublished": "2017-05-05T18:09:26.000Z",
-    "dateModified": "2017-05-05T18:10:03.000Z",
+    "dateModified": "2017-05-05T18:14:46.000Z",
     "description": "Useful Git alias Git comes with handy set of commands. But if you often do same things by typing lengthy commands, then their is alias in Mac/Linux to help you out. alias gcodev&#x3D;&#x27;git co develop&#x27;   alias gpulldev&#x3D;&#x27;git pull origin develop&#x27;   Setup color full git indicator for terminal",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -55,7 +55,7 @@
     </script>
 
     <meta name="generator" content="Ghost 0.11">
-    <link rel="alternate" type="application/rss+xml" title="Maninder's Blog" href="../../../../../rss.2">
+    <link rel="alternate" type="application/rss+xml" title="Maninder's Blog" href="../../../../../rss.3">
 
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,600,400">
     <style amp-custom>
@@ -862,7 +862,7 @@ alias gpulldev='git pull origin develop'
 <pre><code>Maninder@[Zalando]:~/static (master)$  
 </code></pre>
 
-<p><strong>Step 1:</strong> Update the .bash_profile with following files of code:</p>
+<p><strong>Step 1:</strong> Update the <code>.bash_profile</code> with following files of code:</p>
 
 <pre><code># GIT
 export GIT_PS1_SHOWDIRTYSTATE=1  
@@ -873,7 +873,7 @@ export GIT_PS1_SHOWCOLORHINTS=1
 export PROMPT_COMMAND='__git_ps1 "\u@[Zalando]:\w" "\\\$ "'  
 </code></pre>
 
-<p><strong>Step 1:</strong> Save the file under home directory as <a href="https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh">.git-prompt.sh</a></p>
+<p><strong>Step 2:</strong> Save the file under home directory as <a href="https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh">.git-prompt.sh</a></p>
 
 <pre><code># bash/zsh git prompt support
 #
@@ -1359,7 +1359,7 @@ __git_ps1 ()
         if [ -n "${GIT_PS1_SHOWSTASHSTATE-}" ] &amp;&amp;
            git rev-parse --verify --quiet refs/stash &gt;/dev/null
         then
-            s="__aSyNcId_&lt;_xkVwDGlt__quot;
+            s="__aSyNcId_&lt;_qYmFj_EY__quot;
         fi
 
         if [ -n "${GIT_PS1_SHOWUNTRACKEDFILES-}" ] &amp;&amp;

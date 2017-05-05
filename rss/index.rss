@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Maninder's Blog</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.11</generator><lastBuildDate>Fri, 05 May 2017 18:10:53 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Git initials</title><description>&lt;h6 id="usefulgitalias"&gt;Useful Git alias&lt;/h6&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Maninder's Blog</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.11</generator><lastBuildDate>Fri, 05 May 2017 18:14:54 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Git initials</title><description>&lt;h6 id="usefulgitalias"&gt;Useful Git alias&lt;/h6&gt;
 
 &lt;p&gt;Git comes with handy set of commands. But if you often do same things by typing lengthy commands, then their is alias in Mac/Linux to help you out.&lt;/p&gt;
 
@@ -21,7 +21,7 @@ alias gpulldev='git pull origin develop'
 &lt;pre&gt;&lt;code&gt;Maninder@[Zalando]:~/static (master)$  
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Update the .bash_profile with following files of code:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Update the &lt;code&gt;.bash_profile&lt;/code&gt; with following files of code:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;# GIT
 export GIT_PS1_SHOWDIRTYSTATE=1  
@@ -32,7 +32,7 @@ export GIT_PS1_SHOWCOLORHINTS=1
 export PROMPT_COMMAND='__git_ps1 "\u@[Zalando]:\w" "\\\$ "'  
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Save the file under home directory as &lt;a href="https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh"&gt;.git-prompt.sh&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Save the file under home directory as &lt;a href="https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh"&gt;.git-prompt.sh&lt;/a&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;# bash/zsh git prompt support
 #
