@@ -1,42 +1,42 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Maninder's Blog</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.11</generator><lastBuildDate>Fri, 05 May 2017 18:10:53 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Git initials</title><description>&lt;h6 id="usefulgitalias"&gt;Useful Git alias&lt;/h6&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Maninder's Blog]]></title><description><![CDATA[Thoughts, stories and ideas.]]></description><link>http://localhost:2368/</link><generator>Ghost 0.11</generator><lastBuildDate>Fri, 05 May 2017 18:10:53 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Git initials]]></title><description><![CDATA[<h6 id="usefulgitalias">Useful Git alias</h6>
 
-&lt;p&gt;Git comes with handy set of commands. But if you often do same things by typing lengthy commands, then their is alias in Mac/Linux to help you out.&lt;/p&gt;
+<p>Git comes with handy set of commands. But if you often do same things by typing lengthy commands, then their is alias in Mac/Linux to help you out.</p>
 
-&lt;pre&gt;&lt;code&gt;alias gcodev='git co develop'  
+<pre><code>alias gcodev='git co develop'  
 alias gpulldev='git pull origin develop'  
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h6 id="setupcolorfullgitindicatorforterminal"&gt;Setup color full git indicator for terminal&lt;/h6&gt;</description><link>http://localhost:2368/2017/05/05/git-alias/</link><guid isPermaLink="false">40d746e8-f2ae-4a51-8638-c8f1d4e9f5ae</guid><dc:creator>Maninder Pal Singh</dc:creator><pubDate>Fri, 05 May 2017 18:09:26 GMT</pubDate><content:encoded>&lt;h6 id="usefulgitalias"&gt;Useful Git alias&lt;/h6&gt;
+<h6 id="setupcolorfullgitindicatorforterminal">Setup color full git indicator for terminal</h6>]]></description><link>http://localhost:2368/2017/05/05/git-alias/</link><guid isPermaLink="false">40d746e8-f2ae-4a51-8638-c8f1d4e9f5ae</guid><dc:creator><![CDATA[Maninder Pal Singh]]></dc:creator><pubDate>Fri, 05 May 2017 18:09:26 GMT</pubDate><content:encoded><![CDATA[<h6 id="usefulgitalias">Useful Git alias</h6>
 
-&lt;p&gt;Git comes with handy set of commands. But if you often do same things by typing lengthy commands, then their is alias in Mac/Linux to help you out.&lt;/p&gt;
+<p>Git comes with handy set of commands. But if you often do same things by typing lengthy commands, then their is alias in Mac/Linux to help you out.</p>
 
-&lt;pre&gt;&lt;code&gt;alias gcodev='git co develop'  
+<pre><code>alias gcodev='git co develop'  
 alias gpulldev='git pull origin develop'  
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h6 id="setupcolorfullgitindicatorforterminal"&gt;Setup color full git indicator for terminal&lt;/h6&gt;
+<h6 id="setupcolorfullgitindicatorforterminal">Setup color full git indicator for terminal</h6>
 
-&lt;p&gt;After following the tutorial, your terminal prompt will look like this:  &lt;/p&gt;
+<p>After following the tutorial, your terminal prompt will look like this:  </p>
 
-&lt;pre&gt;&lt;code&gt;Maninder@[Zalando]:~/static (master)$  
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>Maninder@[Zalando]:~/static (master)$  
+</code></pre>
 
-&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Update the .bash_profile with following files of code:&lt;/p&gt;
+<p><strong>Step 1:</strong> Update the .bash_profile with following files of code:</p>
 
-&lt;pre&gt;&lt;code&gt;# GIT
+<pre><code># GIT
 export GIT_PS1_SHOWDIRTYSTATE=1  
 export GIT_PS1_SHOWUNTRACKEDFILES=1  
 export GIT_PS1_SHOWUPSTREAM="auto"  
 export GIT_PS1_SHOWCOLORHINTS=1  
 . ~/.git-prompt.sh
 export PROMPT_COMMAND='__git_ps1 "\u@[Zalando]:\w" "\\\$ "'  
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Save the file under home directory as &lt;a href="https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh"&gt;.git-prompt.sh&lt;/a&gt;&lt;/p&gt;
+<p><strong>Step 1:</strong> Save the file under home directory as <a href="https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh">.git-prompt.sh</a></p>
 
-&lt;pre&gt;&lt;code&gt;# bash/zsh git prompt support
+<pre><code># bash/zsh git prompt support
 #
-# Copyright (C) 2006,2007 Shawn O. Pearce &amp;lt;spearce@spearce.org&amp;gt;
+# Copyright (C) 2006,2007 Shawn O. Pearce &lt;spearce@spearce.org&gt;
 # Distributed under the GNU General Public License, version 2.0.
 #
 # This script allows you to see repository status in your prompt.
@@ -53,7 +53,7 @@ export PROMPT_COMMAND='__git_ps1 "\u@[Zalando]:\w" "\\\$ "'
 #        the optional argument will be used as format string.
 #    3b) Alternatively, for a slightly faster prompt, __git_ps1 can
 #        be used for PROMPT_COMMAND in Bash or for precmd() in Zsh
-#        with two parameters, &amp;lt;pre&amp;gt; and &amp;lt;post&amp;gt;, which are strings
+#        with two parameters, &lt;pre&gt; and &lt;post&gt;, which are strings
 #        you would put in $PS1 before and after the status string
 #        generated by the git-prompt machinery.  e.g.
 #        Bash: PROMPT_COMMAND='__git_ps1 "\u@\h:\w" "\\\$ "'
@@ -89,8 +89,8 @@ export PROMPT_COMMAND='__git_ps1 "\u@[Zalando]:\w" "\\\$ "'
 # enabled.
 #
 # If you would like to see the difference between HEAD and its upstream,
-# set GIT_PS1_SHOWUPSTREAM="auto".  A "&amp;lt;" indicates you are behind, "&amp;gt;"
-# indicates you are ahead, "&amp;lt;&amp;gt;" indicates you have diverged and "="
+# set GIT_PS1_SHOWUPSTREAM="auto".  A "&lt;" indicates you are behind, "&gt;"
+# indicates you are ahead, "&lt;&gt;" indicates you have diverged and "="
 # indicates that there is no difference. You can further control
 # behaviour by setting GIT_PS1_SHOWUPSTREAM to a space-separated list
 # of values:
@@ -128,7 +128,7 @@ export PROMPT_COMMAND='__git_ps1 "\u@[Zalando]:\w" "\\\$ "'
 
 # check whether printf supports -v
 __git_printf_supports_v=  
-printf -v __git_printf_supports_v -- '%s' yes &amp;gt;/dev/null 2&amp;gt;&amp;amp;1
+printf -v __git_printf_supports_v -- '%s' yes &gt;/dev/null 2&gt;&amp;1
 
 # stores the divergence from upstream in $p
 # used by GIT_PS1_SHOWUPSTREAM
@@ -140,7 +140,7 @@ __git_ps1_show_upstream ()
 
     svn_remote=()
     # get some config options from git-config
-    local output="$(git config -z --get-regexp '^(svn-remote\..*\.url|bash\.showupstream)](http://) 2&amp;gt;/dev/null | tr '\0\n' '\n ')"
+    local output="$(git config -z --get-regexp '^(svn-remote\..*\.url|bash\.showupstream)](http://) 2&gt;/dev/null | tr '\0\n' '\n ')"
     while read -r key value; do
         case "$key" in
         bash.showupstream)
@@ -156,7 +156,7 @@ __git_ps1_show_upstream ()
             upstream=svn+git # default upstream is SVN if available, else git
             ;;
         esac
-    done &amp;lt;&amp;lt;&amp;lt; "$output"
+    done &lt;&lt;&lt; "$output"
 
     # parse configuration values
     for option in ${GIT_PS1_SHOWUPSTREAM}; do
@@ -176,12 +176,12 @@ __git_ps1_show_upstream ()
         # (git-svn uses essentially the same procedure internally)
         local -a svn_upstream
         svn_upstream=($(git log --first-parent -1 \
-                    --grep="^git-svn-id: \(${svn_url_pattern#??}\)" 2&amp;gt;/dev/null))
+                    --grep="^git-svn-id: \(${svn_url_pattern#??}\)" 2&gt;/dev/null))
         if [[ 0 -ne ${#svn_upstream[@]} ]]; then
             svn_upstream=${svn_upstream[${#svn_upstream[@]} - 2]}
             svn_upstream=${svn_upstream%@*}
             local n_stop="${#svn_remote[@]}"
-            for ((n=1; n &amp;lt;= n_stop; n++)); do
+            for ((n=1; n &lt;= n_stop; n++)); do
                 svn_upstream=${svn_upstream#${svn_remote[$n]}}
             done
 
@@ -200,17 +200,17 @@ __git_ps1_show_upstream ()
     # Find how many commits we are ahead/behind our upstream
     if [[ -z "$legacy" ]]; then
         count="$(git rev-list --count --left-right \
-                "$upstream"...HEAD 2&amp;gt;/dev/null)"
+                "$upstream"...HEAD 2&gt;/dev/null)"
     else
         # produce equivalent output to --count for older versions of git
         local commits
-        if commits="$(git rev-list --left-right "$upstream"...HEAD 2&amp;gt;/dev/null)"
+        if commits="$(git rev-list --left-right "$upstream"...HEAD 2&gt;/dev/null)"
         then
             local commit behind=0 ahead=0
             for commit in $commits
             do
                 case "$commit" in
-                "&amp;lt;"*) ((behind++)) ;;
+                "&lt;"*) ((behind++)) ;;
                 *)    ((ahead++))  ;;
                 esac
             done
@@ -228,11 +228,11 @@ __git_ps1_show_upstream ()
         "0  0") # equal to upstream
             p="=" ;;
         "0  "*) # ahead of upstream
-            p="&amp;gt;" ;;
+            p="&gt;" ;;
         *"  0") # behind upstream
-            p="&amp;lt;" ;;
+            p="&lt;" ;;
         *)      # diverged from upstream
-            p="&amp;lt;&amp;gt;" ;;
+            p="&lt;&gt;" ;;
         esac
     else
         case "$count" in
@@ -247,10 +247,10 @@ __git_ps1_show_upstream ()
         *)      # diverged from upstream
             p=" u+${count#*    }-${count% *}" ;;
         esac
-        if [[ -n "$count" &amp;amp;&amp;amp; -n "$name" ]]; then
+        if [[ -n "$count" &amp;&amp; -n "$name" ]]; then
             __git_ps1_upstream_name=$(git rev-parse \
-                --abbrev-ref "$upstream" 2&amp;gt;/dev/null)
-            if [ $pcmode = yes ] &amp;amp;&amp;amp; [ $ps1_expanded = yes ]; then
+                --abbrev-ref "$upstream" 2&gt;/dev/null)
+            if [ $pcmode = yes ] &amp;&amp; [ $ps1_expanded = yes ]; then
                 p="$p \${__git_ps1_upstream_name}"
             else
                 p="$p ${__git_ps1_upstream_name}"
@@ -313,7 +313,7 @@ __git_eread ()
 {
     local f="$1"
     shift
-    test -r "$f" &amp;amp;&amp;amp; read "$@" &amp;lt;"$f"
+    test -r "$f" &amp;&amp; read "$@" &lt;"$f"
 }
 
 # __git_ps1 accepts 0 or 1 arguments (i.e., format string)
@@ -393,7 +393,7 @@ __git_ps1 ()
     local repo_info rev_parse_exit_code
     repo_info="$(git rev-parse --git-dir --is-inside-git-dir \
         --is-bare-repository --is-inside-work-tree \
-        --short HEAD 2&amp;gt;/dev/null)"
+        --short HEAD 2&gt;/dev/null)"
     rev_parse_exit_code="$?"
 
     if [ -z "$repo_info" ]; then
@@ -412,9 +412,9 @@ __git_ps1 ()
     local inside_gitdir="${repo_info##*](http://)\n'}"
     local g="${repo_info%](http://)\n'*}"
 
-    if [ "true" = "$inside_worktree" ] &amp;amp;&amp;amp;
-       [ -n "${GIT_PS1_HIDE_IF_PWD_IGNORED-}" ] &amp;amp;&amp;amp;
-       [ "$(git config --bool bash.hideIfPwdIgnored)" != "false" ] &amp;amp;&amp;amp;
+    if [ "true" = "$inside_worktree" ] &amp;&amp;
+       [ -n "${GIT_PS1_HIDE_IF_PWD_IGNORED-}" ] &amp;&amp;
+       [ "$(git config --bool bash.hideIfPwdIgnored)" != "false" ] &amp;&amp;
        git check-ignore -q .
     then
         return $exit
@@ -459,7 +459,7 @@ __git_ps1 ()
             :
         elif [ -h "$g/HEAD" ]; then
             # symlink symbolic ref
-            b="$(git symbolic-ref HEAD 2&amp;gt;/dev/null)"
+            b="$(git symbolic-ref HEAD 2&gt;/dev/null)"
         else
             local head=""
             if ! __git_eread "$g/HEAD" head; then
@@ -479,7 +479,7 @@ __git_ps1 ()
                     git describe HEAD ;;
                 (* | default)
                     git describe --tags --exact-match HEAD ;;
-                esac 2&amp;gt;/dev/null)" ||
+                esac 2&gt;/dev/null)" ||
 
                 b="$short_sha..."
                 b="($b)"
@@ -487,7 +487,7 @@ __git_ps1 ()
         fi
     fi
 
-    if [ -n "$step" ] &amp;amp;&amp;amp; [ -n "$total" ]; then
+    if [ -n "$step" ] &amp;&amp; [ -n "$total" ]; then
         r="$r $step/$total"
     fi
 
@@ -505,7 +505,7 @@ __git_ps1 ()
             b="GIT_DIR!"
         fi
     elif [ "true" = "$inside_worktree" ]; then
-        if [ -n "${GIT_PS1_SHOWDIRTYSTATE-}" ] &amp;amp;&amp;amp;
+        if [ -n "${GIT_PS1_SHOWDIRTYSTATE-}" ] &amp;&amp;
            [ "$(git config --bool bash.showDirtyState)" != "false" ]
         then
             git diff --no-ext-diff --quiet --exit-code || w="*"
@@ -515,15 +515,15 @@ __git_ps1 ()
                 i="#"
             fi
         fi
-        if [ -n "${GIT_PS1_SHOWSTASHSTATE-}" ] &amp;amp;&amp;amp;
-           git rev-parse --verify --quiet refs/stash &amp;gt;/dev/null
+        if [ -n "${GIT_PS1_SHOWSTASHSTATE-}" ] &amp;&amp;
+           git rev-parse --verify --quiet refs/stash &gt;/dev/null
         then
             s="$"
         fi
 
-        if [ -n "${GIT_PS1_SHOWUNTRACKEDFILES-}" ] &amp;amp;&amp;amp;
-           [ "$(git config --bool bash.showUntrackedFiles)" != "false" ] &amp;amp;&amp;amp;
-           git ls-files --others --exclude-standard --error-unmatch -- '*' &amp;gt;/dev/null 2&amp;gt;/dev/null
+        if [ -n "${GIT_PS1_SHOWUNTRACKEDFILES-}" ] &amp;&amp;
+           [ "$(git config --bool bash.showUntrackedFiles)" != "false" ] &amp;&amp;
+           git ls-files --others --exclude-standard --error-unmatch -- '*' &gt;/dev/null 2&gt;/dev/null
         then
             u="%${ZSH_VERSION+%}"
         fi
@@ -536,12 +536,12 @@ __git_ps1 ()
     local z="${GIT_PS1_STATESEPARATOR-" "}"
 
     # NO color option unless in PROMPT_COMMAND mode
-    if [ $pcmode = yes ] &amp;amp;&amp;amp; [ -n "${GIT_PS1_SHOWCOLORHINTS-}" ]; then
+    if [ $pcmode = yes ] &amp;&amp; [ -n "${GIT_PS1_SHOWCOLORHINTS-}" ]; then
         __git_ps1_colorize_gitstring
     fi
 
     b=${b##refs/heads/}
-    if [ $pcmode = yes ] &amp;amp;&amp;amp; [ $ps1_expanded = yes ]; then
+    if [ $pcmode = yes ] &amp;&amp; [ $ps1_expanded = yes ]; then
         __git_ps1_branch_name=$b
         b="\${__git_ps1_branch_name}"
     fi
@@ -562,6 +562,6 @@ __git_ps1 ()
 
     return $exit
 }
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;Voila, we are done. Open terminal and move to any git repository.&lt;/p&gt;</content:encoded></item></channel></rss>
+<p>Voila, we are done. Open terminal and move to any git repository.</p>]]></content:encoded></item></channel></rss>
